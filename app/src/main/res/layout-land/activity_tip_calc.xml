@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/food"
+        app:srcCompat="@drawable/food_landscape"
         android:scaleType="centerCrop"/>
 
     <TableLayout
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        android:layout_margin="10dp">
 
         <TableRow
             android:layout_width="match_parent"
